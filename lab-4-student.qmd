@@ -116,7 +116,7 @@ Write the data to a `csv` file called `buoy_update.csv`. Be sure to write it to 
 
 ```{r eval: false}
 #| label: write-data-part-1
-write.csv(mbd_2, "C:/Users/efrai/Documents/STAT_210_Spring_2025/Labs/Original/lab-4-efrain-ramirez/data_raw/buoy_update.csv")
+write.csv(mbd_2, "C:/Users/efrai/Documents/STAT_210_Spring_2025/Labs/Original/Lab_4/Lab-4-NOAA-Import-Data/data_raw/buoy_update.csv")
 ```
 
 
@@ -154,7 +154,7 @@ Now we have our clean, correctly classified, data ready for analysis as `buoy_fi
 
 ```{r eval: false}
 #| label: write-data-part-2
-write.csv(buoy_final, "C:/Users/efrai/Documents/STAT_210_Spring_2025/Labs/Original/lab-4-efrain-ramirez/data_clean/buoy_final.csv")
+write.csv(buoy_final, "C:/Users/efrai/Documents/STAT_210_Spring_2025/Labs/Original/Lab_4/Lab-4-NOAA-Import-Data/data_clean/buoy_final.csv")
 ```
 
 
